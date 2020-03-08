@@ -21,20 +21,28 @@ void insertion_sort(std::vector<int> & array)
 
 void shell_sort(std::vector<int> & array)
 {
-	int interval = array.size() / 2;
+	// calculate interval
+	int interval;
+	for (interval = 1; interval < array.size(); interval = 3 * interval + 1);
+	interval /= 9;
+	if (!interval)
+	{
+		interval++;
+	}
+
 	while (interval)
 	{
-		for (int i = array.size() - interval ; i >= 0; --i)
+		for (int i = interval ; i < array.size(); ++i)
 		{
 			int temp = array[i];
 			int j;
 
-			for (j = i - 1; j >= 0 && array[j] > temp; j-= interval)
+			for (j = i ; j >= interval && array[j - interval] > temp; j-= interval)
 			{
-				array[j + 1] = array[j];
+				array[j ] = array[j - interval];
 			}
 
-			array[j + 1] = temp;
+			array[j] = temp;
 		}
 
 		--interval;

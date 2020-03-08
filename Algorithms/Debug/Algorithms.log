@@ -1,2 +1,9 @@
 ﻿  Algorithms.cpp
+g:\sourcecontrol\algorithms\algorithms\shellsort.h(26): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\shellsort.h(35): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\mergesort.h(17): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\mergesort.h(32): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\mergesort.h(39): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\binaryheap.h(46): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\binaryheap.h(49): warning C4018: '<': signed/unsigned mismatch
   Algorithms.vcxproj -> G:\SourceControl\Algorithms\Debug\Algorithms.exe
