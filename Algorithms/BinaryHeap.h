@@ -28,7 +28,7 @@ public:
 			index = parent(index);
 		}
 	}
-	void remove(int value)
+	void pop()
 	{
 		if (array.size() == 0)
 			return;
@@ -50,10 +50,12 @@ public:
 			if (r < array.size() && array[r] > array[largest])
 				largest = r;
 
-			if (largest != 0) {
+			if (largest != index) {
 				std::swap(array[index], array[largest]);
+
+				index = largest;
 			}
-		} while (largest != 0);
+		} while (largest != index);
 	}
 protected:
 	int parent(int index) { return (index - 1) / 2; }

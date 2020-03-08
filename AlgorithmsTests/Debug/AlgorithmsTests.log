@@ -1,0 +1,11 @@
+﻿  SortTests.cpp
+g:\sourcecontrol\algorithms\algorithms\shellsort.h(26): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\shellsort.h(35): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\mergesort.h(17): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\mergesort.h(32): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithms\mergesort.h(39): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithmstests\sorttests.cpp(26): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithmstests\sorttests.cpp(43): warning C4018: '<': signed/unsigned mismatch
+g:\sourcecontrol\algorithms\algorithmstests\sorttests.cpp(59): warning C4018: '<': signed/unsigned mismatch
+     Creating library G:\SourceControl\Algorithms\Debug\AlgorithmsTests.lib and object G:\SourceControl\Algorithms\Debug\AlgorithmsTests.exp
+  AlgorithmsTests.vcxproj -> G:\SourceControl\Algorithms\Debug\AlgorithmsTests.dll
